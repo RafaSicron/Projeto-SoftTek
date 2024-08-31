@@ -51,6 +51,12 @@ main #imagemButton {
 }
 
 
+
+
+footer #rowVideoPitch1, #rowVideoPitch2 {
+    width: 80%;
+}
+
 footer .videoPitch {
     width: 300px;
     height: 200px;
@@ -64,7 +70,14 @@ footer #hrText {
 footer .containerText {
     width: 30%;
 }
- 
+
+footer .h2Text {
+    font-size: 25px;
+}
+
+
+
+
 
 @media (max-width: 1600px) {
     main {
@@ -108,7 +121,7 @@ footer .containerText {
     footer p {
         font-size: 11px;
     }
-    footer .videoPitch {
+    footer .videoIframe {
         width: 200px;
         height: 120px;
     }
@@ -116,7 +129,6 @@ footer .containerText {
 }
 
 @media (max-width: 768px) {
-
     main #h1Section {
         font-size: 20px;
     }
@@ -139,10 +151,22 @@ footer .containerText {
         margin: 0;
         width: 200px;
     }
-    footer .videoPitch {
-        width: 140px;
-        height: 100px;
+    footer .videoIframe {
+        width: 220px;
+        height: 160px;
     }
+
+    footer .columnContainer {
+        flex-direction: column !important;
+        gap: 0px !important;
+    }
+
+    footer .h2Text {
+        font-size: 20px;
+    }
+    footer p {
+        font-size: 12px;
+        }
 
 
 }
@@ -167,9 +191,9 @@ footer .containerText {
         font-size: 8px;
         height: 10px;
     }
-    footer .videoPitch {
-        width: 100px;
-        height: 60px;
+    footer .videoIframe {
+        width: 200px;
+        height: 120px;
     }
     footer h1,h2 {
         font-size: 12px;
@@ -180,6 +204,13 @@ footer .containerText {
     main {
         margin-bottom: 24%;
     }
+    footer .h2Text {
+        font-size: 16px;
+    }
+    footer  .containerText {
+        text-align: center;
+    }
+
 }
 
 
@@ -188,5 +219,8 @@ footer .containerText {
     main {
         margin-bottom: 14%;
     }
+    footer p {
+        font-size: 9px;
+        }
 }
 

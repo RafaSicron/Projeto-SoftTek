@@ -46,6 +46,11 @@ main #newChatIcon {
 }
 
 
+main .pText {
+    width: 120px;
+    cursor: pointer;
+}
+
 main #secondColumn {
     width: 85%;
     height: 100vh;
@@ -91,7 +96,7 @@ main .textCardTitlle {
     main button {
         width: 85px;
         height: 35px;
-        font-size: 1vh;
+        font-size: 0.8vh;
     }
     main .textCard {
         font-size: 13px;
